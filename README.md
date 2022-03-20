@@ -1,5 +1,5 @@
 # Learning  Git and Github
-This repository is created to learn how we can use git for our upcoming project.
+THIS REPOSITORY IS CREATED TO LEARN HOW WE CAN USE GIT FOR OUR UPCOMING PROJECT.
 
 
 # GitHub SSH Setup
