@@ -4,7 +4,7 @@ This repository is created to learn how we can use git for our upcoming project.
 # Clone Command
 
 ```bash
-git clone <ssh_path>
+git clone <copied_ssh_path>
 ```
 
 # GitHub SSH Setup
