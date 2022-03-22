@@ -40,7 +40,7 @@ cat ~/.ssh/id_ed25519.pub
 Clone the project
 
 ```bash
-git clone git@github.com:fellow-developers/text_utility.git
+git clone git@github.com:fellow-developers/learning_git.git
 ```
 
 Go to the project directory
