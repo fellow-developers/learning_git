@@ -34,3 +34,22 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 - End
+
+# Contribute in this project
+
+Clone the project
+
+```bash
+git clone git@github.com:fellow-developers/text_utility.git
+```
+
+Go to the project directory
+
+```bash
+cd learning_git
+```
+
+Open Project in VSCode
+```bash
+code .
+```
