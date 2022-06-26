@@ -35,6 +35,26 @@ cat ~/.ssh/id_ed25519.pub
 ```
 - End
 
+# Create a new repository on the command line
+
+```bash
+echo "# Demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:satyam-seth-learnings/reactjs_experiments.git
+git push -u origin main
+```
+
+# Push an existing repository from the command line
+
+```bash
+git remote add origin git@github.com:satyam-seth-learnings/reactjs_experiments.git
+git branch -M main
+git push -u origin main
+```
+
 # Contribute in this project
 
 Clone the project
