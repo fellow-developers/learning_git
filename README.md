@@ -73,3 +73,60 @@ Open Project in VSCode
 ```bash
 code .
 ```
+
+## If you want to contribute in existing project, you can follow these steps:
+
+1. Clone the project
+    ```bash
+    git clone <repo-ssh-url>
+    ```
+
+2. Create a new branch
+    ```bash
+    git checkout -b <branch-name>
+    ```
+
+3. Make changes
+
+4. Add changes to staging
+    ```bash
+    git add .
+    ```
+
+5. Commit your changes
+    ```bash
+    git commit -m "<commit-message>"
+    ```
+
+6. If your local main is outdated, you can pull the changes from remote main
+
+    * 6a. Checkout to your local main
+        ```bash
+        git checkout main
+        ```
+        
+    * 6b. Pull the changes from remote main
+        ```bash
+        git pull origin main
+        ```
+    * 6c. Checkout to your branch
+        ```bash
+        git checkout <branch-name>
+        ```
+    * 6d. Merge main to your branch
+        ```bash
+        git merge main
+        ```
+
+7. Push your changes
+    ```bash
+    git push origin <branch-name>
+    ```
+
+8. Create a pull request
+
+9. Wait for the review
+
+10. If there are any changes requested, make the changes and push them to the same branch again (follow steps 3-7)
+
+11. If there are no changes requested, your pull request will be merged
