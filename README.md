@@ -130,3 +130,17 @@ code .
 10. If there are any changes requested, make the changes and push them to the same branch again (follow steps 3-7)
 
 11. If there are no changes requested, your pull request will be merged
+
+
+## Rename existing branch
+
+1- Rename branch from github repository
+
+2- Run these commands on your local repository 
+
+```bash
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
