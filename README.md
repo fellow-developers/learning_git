@@ -33,7 +33,12 @@ ssh-add ~/.ssh/id_ed25519
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
-- End
+
+### verify ssh key setup is working or not
+```bash
+ssh -T git@github.com
+```
+
 
 # Create a new repository on the command line
 
