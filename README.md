@@ -1,4 +1,4 @@
-# Learning  Git and Github
+# Learning  Git & Github
 THIS REPOSITORY IS CREATED TO LEARN HOW WE CAN USE GIT FOR OUR UPCOMING PROJECT.
 
 
